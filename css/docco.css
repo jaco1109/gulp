@@ -1,0 +1,26 @@
+@charset "UTF-8";
+/*
+#overview
+Gulp入門サンプル
+
+サンプルファイルです
+*/
+/*#styleguide
+サンプル見出し１
+
+## サンプルの見出しスタイル
+hoverすると青く2倍になる
+
+```
+&lt;h1&gt;見出し１&lt;/h1&gt;
+```
+*/
+h1 {
+  color: red;
+  -webkit-transition: 200ms ease-out -webkit-transform;
+          transition: 200ms ease-out transform; }
+  h1:hover {
+    color: blue;
+    -webkit-transform: translate(10px, 0);
+        -ms-transform: translate(10px, 0);
+            transform: translate(10px, 0); }
